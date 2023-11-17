@@ -36,13 +36,44 @@ h3{
     border: 2px solid black;
     border-radius: 5px;
 }
-button{
+.bunch:hover{
+    cursor: pointer;
+}
+.left{
     font-size: 2rem;
     margin: 10px;
-    background-color: rgb(255, 221, 0);
+    background-color: rgb(248, 219, 28);
     border: 2px solid black;
     border-radius: 5px;
     padding:0.5rem 1rem;
+}
+.right{
+    font-size: 2rem;
+    margin: 10px;
+    background-color: rgb(248, 219, 28);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding:0.5rem 1rem;
+}
+.start{
+    font-size: 2rem;
+    margin: 10px;
+    background-color: rgb(248, 219, 28);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding:0.5rem 1rem;
+}
+.start:hover{
+    cursor: pointer;
+    background-color: rgb(189, 164, 1);
+}
+.right:hover{
+    cursor: pointer;
+    background-color: rgb(189, 164, 1);
+}
+.left:hover{
+    cursor: pointer;
+    background-color: rgb(189, 164, 1);
 }
 .playerA{
     border: 3px solid black;
